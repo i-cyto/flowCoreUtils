@@ -12,9 +12,20 @@
 
 ### Installation
 
+
+#### Binary installation for Windows
+
+Find the release to install at https://github.com/i-cyto/flowCoreUtils/releases. Windows release have an extension ".zip". The example below uses the URL of the first release.
+
 ``` r
-# install.packages("remotes")
-remotes::install_github("yourusername/flowCoreUtils")
+binary_url <- "https://github.com/i-cyto/flowCoreUtils/releases/download/v0.0.0.9000/flowCoreUtils_0.0.0.9000.zip"
+install.packages(binary_url, repos = NULL, type = "win.binary")
+```
+
+#### Source installation with compilation (Rtools needed for Windows)
+
+``` r
+remotes::install_github("i-cyto/flowCoreUtils")
 ```
 
 
