@@ -1,0 +1,16 @@
+Package: flowCoreUtils
+Title: Utilities for flowCore
+Version: 0.0.0.9000
+Authors@R: 
+    person("Samuel", "Granjeaud", role = c("aut", "cre"),
+           email = "samuel.granjeaud@inserm.fr", 
+           comment = c(ORCID = "0000-0001-9245-1535"))
+Description: Provides utilities and sometimes faster replacements for flowCore.
+License: Artistic-2.0
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports:
+    flowCore, methods, utils, Rcpp
+LinkingTo: 
+    Rcpp

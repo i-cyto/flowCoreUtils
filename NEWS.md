@@ -1,3 +1,3 @@
-# flowCoreUtils (development version)
+# flowCoreUtils 0.0.0.9000
 
-* Initial CRAN submission.
+* Initial release.
